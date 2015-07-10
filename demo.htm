@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="user-scalable=no, width=device-width"/>
+<title>slidder测试</title>
+<script src="js/lib/jquery/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.slider.js"></script>
+<style>
+* {margin: 0; padding: 0;}
+</style>
+<link rel="stylesheet" href="css/jquery.slider.css" />
+</head>
+<body>
+
+<div class="my_slidder"></div>
+
+<script>
+$(function(){
+
+	window.slider = $(".my_slidder").slider({
+		data: [
+			{
+				img: "https://dn-maimoney.qbox.me/img/index/banner/banner7.992d.jpg",
+				title: "测试１",
+				link: "#"
+			},
+			{
+				img: "https://dn-maimoney.qbox.me/img/index/banner/banner-invite.b838.jpg",
+				title: "测试2",
+				link: "#"
+			},
+			{
+				img: "https://dn-maimoney.qbox.me/img/index/banner/banner-xiaozhao.de67.jpg",
+				title: "测试3",
+				link: "#"
+			},
+			{
+				img: "https://dn-maimoney.qbox.me/img/index/banner/banner-2000.afd3.jpg",
+				title: "测试4",
+				link: "#"
+			},
+		]
+	});
+
+
+	
+});
+</script>
+
+</body>
+</html>

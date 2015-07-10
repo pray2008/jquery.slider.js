@@ -1,0 +1,35 @@
+li {list-style: none}
+.my_slidder {width: 100%; overflow-x:hidden;}
+.my_slidder ul {display: -webkit-box; transition: transform 2s; -webkit-transition: transform 2s;}
+.my_slidder li {width: 100%;}
+.my_slidder li a {position: relative}
+.my_slidder li img {width: 100%;}
+.my_slidder li span {
+	display: block;
+	width: 100%;
+	padding: 10px 0;
+	position: absolute; 
+	bottom: 5px; 
+	background: #CCC; 
+	color: #000;
+	text-align: center;
+	opacity: 0.5;
+}
+.my_slidder_postion {
+	position: relative;
+	top: -19px;
+	text-align: center;
+}
+
+.my_slidder_postion span {
+	display: inline-block;
+	width: 50px;
+	height: 3px;
+	border-radius: 2px;
+	background: #FFF;
+	border: 1px solid #CCC;
+	cursor:pointer;
+}
+.my_slidder_postion span.on {
+	background: #666;
+}
