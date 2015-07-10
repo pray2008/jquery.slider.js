@@ -3,9 +3,9 @@ This is a jquery plugin that can be easily used to slide several pictures in a c
 It is desgined for mobile page, but can also be used in IE9+, chrome, ff
 
 The way to use it:
-<div class="my_slidder"></div>
+&lt;div class="my_slidder"&gt;&lt;/div&gt;
 
-<script>
+&lt;script&gt;
 var slider = $(".my_slidder").slider({
     data: [
         {
@@ -30,4 +30,4 @@ var slider = $(".my_slidder").slider({
         }
     ]
 });
-</script>
+&lt;/script&gt;
